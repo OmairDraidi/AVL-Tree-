@@ -1,0 +1,41 @@
+public class Node_AVL {
+    private int key;
+    private int depth;
+    Node_AVL left;
+    Node_AVL rigtht;
+
+    public Node_AVL() {
+        left = null;
+        rigtht = null;
+    }
+
+    public Node_AVL(int key) {
+        this.key = key;
+        left = null;
+        rigtht = null;
+    }
+
+    public Node_AVL(int key, int depth) {
+        this.key = key;
+        this.depth = depth;
+        left = null;
+        rigtht = null;
+    }
+
+    public int getKey() {
+        return key;
+    }
+
+    public void setKey(int key) {
+        this.key = key;
+    }
+
+    public int getDepth() {
+        return depth;
+    }
+
+    public void setDepth(int depth) {
+        this.depth = depth;
+    }
+
+}
